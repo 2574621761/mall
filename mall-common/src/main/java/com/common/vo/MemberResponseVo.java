@@ -1,4 +1,4 @@
-package com.xunqi.common.vo;
+package com.common.vo;
 
 import lombok.Data;
 import lombok.ToString;

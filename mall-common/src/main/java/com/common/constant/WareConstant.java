@@ -1,4 +1,4 @@
-package com.xunqi.common.constant;
+package com.common.constant;
 
 /**
  * @Description:

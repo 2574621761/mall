@@ -1,4 +1,4 @@
-package com.xunqi.common.exception;
+package com.common.exception;
 
 /**
  * @Description: 错误状态码枚举

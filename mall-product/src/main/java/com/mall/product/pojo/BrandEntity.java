@@ -1,13 +1,12 @@
-package com.xunqi.gulimall.product.entity;
+package com.mall.product.pojo;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.xunqi.common.valid.AddGroup;
-import com.xunqi.common.valid.ListValue;
-import com.xunqi.common.valid.UpdateGroup;
-import com.xunqi.common.valid.UpdateStatusGroup;
+import com.common.valid.AddGroup;
+import com.common.valid.ListValue;
+import com.common.valid.UpdateGroup;
+import com.common.valid.UpdateStatusGroup;
 import lombok.Data;
-import org.hibernate.validator.constraints.URL;
 
 import javax.validation.constraints.*;
 import java.io.Serializable;
@@ -40,7 +39,7 @@ public class BrandEntity implements Serializable {
 	 * 品牌logo地址
 	 */
 	@NotBlank(groups = {AddGroup.class})
-	@URL(message = "logo必须是一个合法的url地址",groups={AddGroup.class,UpdateGroup.class})
+//	@URL(message = "logo必须是一个合法的url地址",groups={AddGroup.class,UpdateGroup.class})
 	private String logo;
 	/**
 	 * 介绍

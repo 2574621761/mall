@@ -1,4 +1,4 @@
-package com.xunqi.common.es;
+package com.common.es;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.xunqi.gulimall.product.entity;
+package com.mall.product.pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

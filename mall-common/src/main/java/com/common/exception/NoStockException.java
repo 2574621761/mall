@@ -1,4 +1,4 @@
-package com.xunqi.common.exception;
+package com.common.exception;
 
 import lombok.Getter;
 import lombok.Setter;

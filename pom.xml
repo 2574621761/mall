@@ -14,5 +14,6 @@
 		<module>mall-order</module>
 		<module>mall-product</module>
 		<module>mall-Ware</module>
+		<module>mall-common</module>
 	</modules>
 </project>

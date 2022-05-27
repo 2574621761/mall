@@ -1,5 +1,5 @@
 /** Copyright 2020 bejson.com */
-package com.xunqi.common.to;
+package com.common.to;
 
 import lombok.Data;
 

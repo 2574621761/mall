@@ -1,4 +1,4 @@
-package com.xunqi.common.valid;
+package com.common.valid;
 
 /**
  * @Description:
